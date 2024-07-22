@@ -29,6 +29,7 @@ PermitRootLogin no
 MaxAuthTries 3
 MaxSessions 5
 
+#PubkeyAuthOptions verify-required
 #PubkeyAuthentication yes
 
 # Expect .ssh/authorized_keys2 to be disregarded by default in future.
